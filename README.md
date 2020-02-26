@@ -31,7 +31,7 @@ In this project, I will be working with only 1grams of words. Given a text, and 
 
 6) count_letters:  Returns a list of length 26 corresponding to letter frequencies. More specifically, this function takes the dictionary of words to tuples created by the first function and returns a length of 26 where each element is frequency of the letters in the alphabet (0th is "a", 1st is "b" etc.)
      The inputs are: 
-       * word_data: A dictionary of word to tuples created by read_entire_word_file. 
+       *word_data: A dictionary of word to tuples created by read_entire_word_file. 
         for example: word_data = read_entire_word_file("data/very_short.txt").
 
 
@@ -51,7 +51,7 @@ In this file, we will create functions that will return plots to help us visuali
   
 2) bar_plot_of_letter_frequencies: This function will create a bar graph of the frequency of letters in a dictionary of word to tuples. 
      The inputs are: 
-       * word_data: A dictionary of word to tuples created by read_entire_word_file. 
+       *word_data: A dictionary of word to tuples created by read_entire_word_file. 
         for example: word_data = read_entire_word_file("data/very_short.txt").
 
 
