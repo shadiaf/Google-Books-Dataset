@@ -6,7 +6,7 @@ Ngram frequencies are useful because they provide a quantitative measure of whic
 
 In this project, I will be working with only 1grams of words. Given a text, and assuming we care about the words (as opposed to the letters, or syllables, or whatever else), the set of 1grams is just the set of words that appear in the text (with disregard to whitespace).
 
-### One_gram_reader.py has several functions ###:
+### One_gram_reader.py:
 
 1) read_word_file: the first function will read a tab delimited file and return the number of times that a given word has appeared in all (evaluted)texts throughout history. For example, the word "wandered" appeared 108634 times during the year 2007. This can be tested using the file very_short.txt
 
@@ -35,7 +35,7 @@ In this project, I will be working with only 1grams of words. Given a text, and 
         for example: word_data = read_entire_word_file("data/very_short.txt").
 
 
-### One_gram_plotter ###: 
+### One_gram_plotter: 
 
 In this file, we will create functions that will return plots to help us visualize daya. 
 
