@@ -8,21 +8,21 @@ In this project, I will be working with only 1grams of words. Given a text, and 
 
 One_gram_reader.py has several functions:
 
-1)read_word_file: the first function will read a tab delimited file and return the number of times that a given word has appeared in all (evaluted)texts throughout history. For example, the word "wandered" appeared 108634 times during the year 2007. This can be tested using the file very_short.txt
+1) read_word_file: the first function will read a tab delimited file and return the number of times that a given word has appeared in all (evaluted)texts throughout history. For example, the word "wandered" appeared 108634 times during the year 2007. This can be tested using the file very_short.txt
 
-2)read_total_counts: The second function will read a comma separated file (CSV) and return the total number of words collected from all sources for a given year. For example, Google counted a total of 16,206,118,071 English words in 2007. It will essentially return a dictionary of counts for the appropriate year. This can be tested using total_counts.csv. 
+2) read_total_counts: The second function will read a comma separated file (CSV) and return the total number of words collected from all sources for a given year. For example, Google counted a total of 16,206,118,071 English words in 2007. It will essentially return a dictionary of counts for the appropriate year. This can be tested using total_counts.csv. 
 
-3)normalize_counts: This function will return a list of normalized version of counts using a list of years, list of counts and dictionary of counts for each year as the input. 
+3) normalize_counts: This function will return a list of normalized version of counts using a list of years, list of counts and dictionary of counts for each year as the input. 
   The inputs are: 
       ▪ years: A list of years as returned by the one_gram_reader.read_word_file()
       ▪ counts: A list of counts, same as returned by the one_gram_reader.read_word_file()
       ▪ total: A dictionary of counts for each year, same as returned by your one_gram_reader.read_total_counts
       
-4)read_entire_word_file:  Returns the counts and years for all words. More specifically this function takes a csv file and returns a dictionary mapping words to a list of tuples containing the year the word is found in and the count the number of times the word appeared that year
+4) read_entire_word_file:  Returns the counts and years for all words. More specifically this function takes a csv file and returns a dictionary mapping words to a list of tuples containing the year the word is found in and the count the number of times the word appeared that year
   The inputs are:
       ▪ word_file_path: A string giving the file path of a one_gram csv file. I used "data/very_short.txt" as an example
 
-5)total_occurrences: Returns total occurrences of word. More specifically this function takes the dictionary of words to tuples created by the first function and any word and returns the total number of times the word has appeared. 
+5) total_occurrences: Returns total occurrences of word. More specifically this function takes the dictionary of words to tuples created by the first function and any word and returns the total number of times the word has appeared. 
   The inputs are:
       ▪ word_data: A dictionary of word to tuples created by read_entire_word_file. 
         for example: word_data = read_entire_word_file("data/very_short.txt").
