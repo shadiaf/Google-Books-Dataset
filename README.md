@@ -10,7 +10,7 @@ One_gram_reader.py has several functions:
 
 1)read_word_file: the first function will read a tab delimited file and return the number of times that a given word has appeared in all (evaluted)texts throughout history. For example, the word "wandered" appeared 108634 times during the year 2007. This can be tested using the file very_short.txt
 
-2)read_total_counts: The second function will read a comma separated file (CSV) and return the total number of words collected from all sources for a given year. For example, Google counted a total of 16,206,118,071 English words in 2007. It will essentially return a dictionary of counts for the appropriate year. This can be tested using total_counts.csv. We'll call these files word_file and total_file throughout this assignment.
+2)read_total_counts: The second function will read a comma separated file (CSV) and return the total number of words collected from all sources for a given year. For example, Google counted a total of 16,206,118,071 English words in 2007. It will essentially return a dictionary of counts for the appropriate year. This can be tested using total_counts.csv. 
 
 3)normalize_counts: This function will return a list of normalized version of counts using a list of years, list of counts and dictionary of counts for each year as the input. 
   The inputs are: 
@@ -43,7 +43,7 @@ In this file, we will create functions that will return plots to help us visuali
   The inputs are: 
       ▪ words: A list of words to calculate normalized counts for and then plot. 
       ▪ year_range: A list of 2 numbers defining the year range we are interested in
-      ▪ word_file: Name of the word txt file (all_word.text) 
+      ▪ word_file: Name of the word txt file (all_words.text) (This file was too big to attach here) 
       ▪ total_file: Name of the totals csv file (total_counts.csv)
       
   example: 
